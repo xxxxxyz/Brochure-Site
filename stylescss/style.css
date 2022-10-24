@@ -238,7 +238,7 @@ iframe {
 
 /* Viewport */
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 760px) {
     nav, .sidebar, .space, .lside, .mspace, .lmedia {
         display: none;
     }
