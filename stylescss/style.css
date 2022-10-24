@@ -1,0 +1,230 @@
+* {
+    background-color: #dcdcdc ;
+    color: #444;
+}
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.header {
+   display: flex; 
+   flex-direction: row;
+   height: 6rem;
+   border-bottom: 1px solid #555;
+   width: 100%;
+   align-items: center;
+
+   justify-content: space-between;
+}
+.logo {
+    margin-left: 40px;
+    font-size:  2.6rem;  
+    color: #333; 
+    width: 22%;
+}
+a:link, a:hover, a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+nav {
+    text-align: right;
+    width: 16.7%;
+    margin-right: 40px;
+}
+nav a {
+    margin-left: 50px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 1px solid #555;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    align-items: left;
+    padding-top: 180px;
+    margin-left: 40px;
+    border-right: 1px solid #555;
+    font-size: 18px;
+    row-gap: 12px;
+}
+
+.donald {
+    display: flex;
+    flex-direction: column;
+}
+.donald h1 {
+    font-size: 9rem;
+    padding-left: 20px;
+    margin-bottom: 0%;
+}
+.donald h6 {
+    display: flex;
+    font-size: 24px;
+    margin: 0 20px;
+    padding-bottom: 20px;
+}
+.space {
+    display: flex;
+    flex-direction: row;
+    height: 8rem;
+    border-bottom: 1px solid #555;
+}
+
+.lspace {
+    width: 50%;
+    border-right: 1px solid #555;
+}
+.subtitle {
+    width: 100%vw;
+    height: 5rem;
+    border-bottom: 1px solid #555;   
+    font-size: 2.6rem;
+    padding-left: 40px;
+    padding-top: 1.4rem;
+}
+.container {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #555;
+    padding-bottom: 40px;
+}
+.lside {
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 600px;
+}
+.lside h6 {
+    font-size: 20px;
+    margin: 0;
+}
+.lside ol {
+    font-size: 1rem;
+    line-height: 2;
+    padding: 12px;
+    margin: 0;
+}
+.rside {
+    width: 50%;
+    margin-right: 40px;
+    margin-left: 18px;
+    margin-top: 60px;
+    line-height: 2;
+}
+.rside p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.rside .caption {
+    color: #666;
+}
+
+.mspace {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 15rem;
+    border-bottom: 1px solid #555;
+}
+.mspace .lmspace {
+    width: 50%;
+    border-right: 1px solid #555;
+}
+
+/* Image Gallery */
+.home_gallery {
+    display: flex;
+    width: 100%;
+    max-height: 325px;
+    border-bottom: 1px solid #555;
+    border-left: 1px solid #555;
+}
+.home_gallery_container {
+    width: 30%;
+    justify-content: center;
+}
+.img_cover {
+    height: 70%;
+    width: 80%;
+    margin: 0;
+    padding-left: 10%
+}
+.img_caption{
+    height: 20%;
+    margin-left: 4%;
+}
+.img_caption h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.img_caption p {
+    margin-top: 0;
+}
+
+img#landscape {
+    height: 60%;
+    padding-left: 1%;
+    padding-top: 20%;
+}
+img#portrait {
+    height: 80%;
+    padding-top: 12%;
+    padding-left: 24%;
+}
+
+.home_gallery_container {
+    border-right: 1px solid #555;
+    width: 23.5%;
+}
+
+/* Media section */
+.media_container {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #555;
+}
+.lmedia {
+    width: 33%;
+    border-right: 1px solid #555;
+}
+.rmedia {
+    width: 66%;
+}
+iframe {
+    margin-left: 40px;
+    margin-top: 60px;
+    width: 700px;
+    height: 480px; 
+}
+
+/* Footer sytle */
+.footer_container {
+    display: flex;
+    border-bottom: 1px solid #555;
+}
+.credits {
+    width: 25%;
+    margin-left: 40px;
+    border-right: 1px solid #555;
+}
+.social {
+    width: 25%;
+    border-right: 1px solid #555;
+    padding-left: 20px;
+}
+.otherlks {
+    width 50%;
+    padding-left: 20px;
+}
+.credits, .social, .otherlks {
+    padding-top: 50px;
+    padding-bottom: 8rem;
+}
