@@ -163,6 +163,14 @@ div .img_cover {
     margin-left: auto;
     margin-right: auto;
 }
+
+div .img_cover img {
+    transition: all 1s;
+}
+div .img_cover img:hover {
+    transform: scale(0.8);
+}
+
 .img_caption{
     height: 20%;
     margin-left: 4%;
